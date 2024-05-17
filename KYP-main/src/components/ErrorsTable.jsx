@@ -20,6 +20,9 @@ function ErrorsTable() {
                     ID
                   </th>
                   <th scope="col" className=" px-6 py-4">
+                    SIM link
+                  </th>
+                  <th scope="col" className=" px-6 py-4">
                     Process
                   </th>
                   <th scope="col" className=" px-6 py-4">
@@ -43,12 +46,19 @@ function ErrorsTable() {
                 {data.map((row, index) => (
                   <tr className="border-b dark:border-neutral-500" key={index}>
                     <td className="py-4 font-medium">{index + 1}</td>
+                    <td className="py-4 font-medium">
+                      <a href={`${row.sim_id}`} target="_blank">
+                        Sim link
+                      </a>
+                    </td>
                     <td className="py-4 font-medium">{row.process}</td>
                     <td className="py-4 font-medium">{row.asin}</td>
                     <td className="py-4 font-medium">{row.mp}</td>
                     <td className="py-4 font-medium">{row.error_type}</td>
                     <td className="py-4 font-medium">{row.error_desc}</td>
-                    <td className="py-4 font-medium">{row.correct_resolution}</td>
+                    <td className="py-4 font-medium">
+                      {row.correct_resolution}
+                    </td>
                   </tr>
                 ))}
               </tbody>

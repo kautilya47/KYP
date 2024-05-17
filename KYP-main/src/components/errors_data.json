@@ -1,5 +1,419 @@
 [
   {
+    "process": "PS",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Image Missing/Mismatch",
+    "error_desc": "Associate missed to check images",
+    "correct_resolution": "Associate should have checked media central before reviewing the case",
+    "sim_id": "https://issues.amazon.com/70898c0a-17b1-478b-be72-f5fe96ab358b"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate missed to check images",
+    "correct_resolution": "Associate should have checked media central before reviewing the case",
+    "sim_id": "https://issues.amazon.com/5630c23c-37e7-4eac-aafe-a06b61ee9439"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate missed to check images",
+    "correct_resolution": "Associate should have checked media central before reviewing the case",
+    "sim_id": "https://issues.amazon.com/8879cfb5-1565-4353-a290-3cf806f5dc4f"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate missed to check duplicate case",
+    "correct_resolution": "Associate should have checked duplicate case before communicating on  the case",
+    "sim_id": "https://issues.amazon.com/de70b26d-6e5e-4cd3-bc36-1b3dd51e5a30"
+  },
+  {
+    "process": "PS",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "The reviewer has incorrectly classified the Asin as TP.",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/2953714e-c7e1-481b-a26c-3d7c79a8638b"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "The reviewer has incorrectly classified the Asin as TP.",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/ae0b886a-30e6-4f41-96ed-ade1a357e828"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Reason Code Error",
+    "error_desc": "Associate used incorret reason code",
+    "correct_resolution": "Associate should have checked RC before communicating on  the case",
+    "sim_id": "https://issues.amazon.com/ae6c97c6-4902-47b2-abd0-9b4e50121ecf"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate sent incorrect communication",
+    "correct_resolution": "Associate should have sent FP blurb",
+    "sim_id": "https://issues.amazon.com/5780ff9b-b770-4626-b7c1-67c44b6b613d"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate sent incorrect communication",
+    "correct_resolution": "Associate should have sent FP blurb",
+    "sim_id": "https://issues.amazon.com/0f281206-c888-4791-8610-39467a953722"
+  },
+  {
+    "process": "Non Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate missed to check claims before classification",
+    "correct_resolution": "TP",
+    "sim_id": "https://issues.amazon.com/216755d8-3d51-429c-b51f-62fca019f73e"
+  },
+  {
+    "process": "Non Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate missed to send communication",
+    "correct_resolution": "Associate should have ensured that the communication was sent before resolving the case",
+    "sim_id": "https://issues.amazon.com/f774f599-ed02-4478-9eeb-6b7b51f098c8"
+  },
+  {
+    "process": "Non Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate used incoorect PRC in the blurb",
+    "correct_resolution": "Associate should have rechecked the PRC name before sending the communication",
+    "sim_id": "https://issues.amazon.com/673e45fa-9e6d-4395-bc38-3b4cb7f8d366"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN as TP",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/5dbb4f71-e43d-4566-82b3-5a2f1b302522"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate used Incorrect blurb and RC",
+    "correct_resolution": "RR",
+    "sim_id": "https://issues.amazon.com/01492539-6e5f-4e74-9cd6-ff687e626b7f"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "TP",
+    "sim_id": "https://issues.amazon.com/62c37560-739c-431b-bafa-6c0b978151b9"
+  },
+  {
+    "process": "PS",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate used Duplicate scenario instead of TP",
+    "correct_resolution": "Associate should have checked the Selling Partner ID for both cases",
+    "sim_id": "https://issues.amazon.com/912b3797-7a90-48cd-be90-6a73d74bc459"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate missed to check seller comment",
+    "correct_resolution": "Associate should have checked the seller comment and processed as RR+ tombstoned",
+    "sim_id": "https://issues.amazon.com/7e47bdca-9989-42cc-988a-11653c091597"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/516b3e36-96e1-4bbc-8103-bbacf01acdb5"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/cb2aaf90-07b4-42b4-8e3f-a2a123fc3c94"
+  },
+  {
+    "process": "Non Toys",
+    "asin": null,
+    "mp": "APAC",
+    "error_type": "Communication",
+    "error_desc": "Associate missed to check the ASIN status",
+    "correct_resolution": "Associate should have checked the ASIN was tombstoned",
+    "sim_id": "https://issues.amazon.com/8639985a-5355-439a-a798-13d2f5307616"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate missed to check for Duplicate case",
+    "correct_resolution": "Associate should have checked for duplicate case scenario",
+    "sim_id": "https://issues.amazon.com/6631204a-ea97-4cbe-9c9e-04ef8ab10aff"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/bed19f3f-f060-4646-aee8-65f1e5756729"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "TP",
+    "sim_id": "https://issues.amazon.com/9bbefbc1-0935-43cf-9d16-317a9acad1f9"
+  },
+  {
+    "process": "Non Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Reason Code Error",
+    "error_desc": "Associate used incorrect RC",
+    "correct_resolution": "Associate should have checked the RC before communicating",
+    "sim_id": "https://issues.amazon.com/10191c94-eac6-4565-8b79-abded088a1fa"
+  },
+  {
+    "process": "Non Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "TP",
+    "sim_id": "https://issues.amazon.com/9d7827e0-434d-425a-a265-03c614b89b67"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/26b53ece-1a02-40fe-a07c-86551ae71835"
+  },
+  {
+    "process": "Non Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "TP",
+    "sim_id": "https://issues.amazon.com/5e56e1f3-896a-4da1-861b-15cde9421f82"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/06e94a2c-f966-48a0-91b4-9e477c76354d"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/8754d1b2-1a0b-41b7-9564-22a3debda7b3"
+  },
+  {
+    "process": "PS",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate missed to check seller comment",
+    "correct_resolution": "Associate should have checked the seller comment and processed as RR",
+    "sim_id": "https://issues.amazon.com/a4f326f3-da96-4def-8291-d6489a10dcbb"
+  },
+  {
+    "process": "PS",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/38f140dc-d295-423e-8b16-b02f0f791f46"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "TP",
+    "sim_id": "https://issues.amazon.com/3fa3b87e-168d-42e0-a7e6-adc77b43926d"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/ec1e2609-c152-45f9-b8de-230570d6ffbd"
+  },
+  {
+    "process": "Non Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/fdd37e97-0b98-4722-ac29-dd0dcc6d73aa"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "TP",
+    "sim_id": "https://issues.amazon.com/23b005c5-587a-4d15-9f2e-e7181b9e6bdc"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate missed to check seller comment",
+    "correct_resolution": "Associate should have checked the seller comment and processed as RR+ FP",
+    "sim_id": "https://issues.amazon.com/4e05c0ff-8909-47d7-b926-c2b097a2e8da"
+  },
+  {
+    "process": "Non Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate sent incorrect communication",
+    "correct_resolution": "Associate should have sent RR blurb",
+    "sim_id": "https://issues.amazon.com/1a26332e-6eea-41b3-80b3-c05e3917ada0"
+  },
+  {
+    "process": "PS",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate sent incorrect communication",
+    "correct_resolution": "Associate should have sent RR blurb",
+    "sim_id": "https://issues.amazon.com/c2b24280-3c6e-4dd9-a9dc-0279b0bb7229"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Reason Code Error",
+    "error_desc": "Associate used incorrect RC",
+    "correct_resolution": "Associate should have checked the RC before communicating",
+    "sim_id": "https://issues.amazon.com/ccebc21e-ad2c-41de-a357-4ccd4a0b7355"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/80855586-ef6a-453f-9be7-ae38e1dbd37d"
+  },
+  {
+    "process": "Non Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": "Communication",
+    "error_desc": "Associate classified the ASIN incorrectly and also used incorrect PRC name",
+    "correct_resolution": "Associate should have checked the and classified the ASIN under the correct PRC",
+    "sim_id": "https://issues.amazon.com/6d11cdcf-971b-44dc-a42c-59d71763366c"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "FP",
+    "sim_id": "https://issues.amazon.com/dcf59749-c989-4cca-a86f-7939176141ce"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "EU",
+    "error_type": "Communication",
+    "error_desc": "Associate sent incorrect communication",
+    "correct_resolution": "Associate should have sent RR blurb",
+    "sim_id": "https://issues.amazon.com/03e6f4ee-02ec-40a8-85f7-ebae04b8db5a"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "EU",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "TP",
+    "sim_id": "https://issues.amazon.com/7e495b40-7dbf-4d05-8fad-3a065e589d12"
+  },
+  {
+    "process": "Non Toys",
+    "asin": null,
+    "mp": "APAC",
+    "error_type": "Communication",
+    "error_desc": "Associate used incorrect PRC name format",
+    "correct_resolution": "Associate should have rechecked the PRC name before sending the communication",
+    "sim_id": "https://issues.amazon.com/6dc24cbe-30d3-452b-b01a-1f8b05eabc78"
+  },
+  {
+    "process": "Toys",
+    "asin": null,
+    "mp": "NA",
+    "error_type": " Incorrect ASIN Classification",
+    "error_desc": "Associate incorrectly classified the ASIN",
+    "correct_resolution": "TP",
+    "sim_id": "https://issues.amazon.com/e5e760a5-6178-4cc2-b27d-4ea5d38dee23"
+  },
+  {
     "process": "Toys",
     "asin": null,
     "mp": "NA",
@@ -4292,420 +4706,7 @@
     "correct_resolution": "Not Available",
     "sim_id": "https://issues.amazon.com/99405747-53fd-4f59-924e-b4bb6d5d9ff8"
   },
-  {
-    "process": "PS",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Image Missing/Mismatch",
-    "error_desc": "Associate missed to check images",
-    "correct_resolution": "Associate should have checked media central before reviewing the case",
-    "sim_id": "https://issues.amazon.com/70898c0a-17b1-478b-be72-f5fe96ab358b"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate missed to check images",
-    "correct_resolution": "Associate should have checked media central before reviewing the case",
-    "sim_id": "https://issues.amazon.com/5630c23c-37e7-4eac-aafe-a06b61ee9439"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate missed to check images",
-    "correct_resolution": "Associate should have checked media central before reviewing the case",
-    "sim_id": "https://issues.amazon.com/8879cfb5-1565-4353-a290-3cf806f5dc4f"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate missed to check duplicate case",
-    "correct_resolution": "Associate should have checked duplicate case before communicating on  the case",
-    "sim_id": "https://issues.amazon.com/de70b26d-6e5e-4cd3-bc36-1b3dd51e5a30"
-  },
-  {
-    "process": "PS",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "The reviewer has incorrectly classified the Asin as TP.",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/2953714e-c7e1-481b-a26c-3d7c79a8638b"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "The reviewer has incorrectly classified the Asin as TP.",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/ae0b886a-30e6-4f41-96ed-ade1a357e828"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Reason Code Error",
-    "error_desc": "Associate used incorret reason code",
-    "correct_resolution": "Associate should have checked RC before communicating on  the case",
-    "sim_id": "https://issues.amazon.com/ae6c97c6-4902-47b2-abd0-9b4e50121ecf"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate sent incorrect communication",
-    "correct_resolution": "Associate should have sent FP blurb",
-    "sim_id": "https://issues.amazon.com/5780ff9b-b770-4626-b7c1-67c44b6b613d"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate sent incorrect communication",
-    "correct_resolution": "Associate should have sent FP blurb",
-    "sim_id": "https://issues.amazon.com/0f281206-c888-4791-8610-39467a953722"
-  },
-  {
-    "process": "Non Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate missed to check claims before classification",
-    "correct_resolution": "TP",
-    "sim_id": "https://issues.amazon.com/216755d8-3d51-429c-b51f-62fca019f73e"
-  },
-  {
-    "process": "Non Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate missed to send communication",
-    "correct_resolution": "Associate should have ensured that the communication was sent before resolving the case",
-    "sim_id": "https://issues.amazon.com/f774f599-ed02-4478-9eeb-6b7b51f098c8"
-  },
-  {
-    "process": "Non Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate used incoorect PRC in the blurb",
-    "correct_resolution": "Associate should have rechecked the PRC name before sending the communication",
-    "sim_id": "https://issues.amazon.com/673e45fa-9e6d-4395-bc38-3b4cb7f8d366"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN as TP",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/5dbb4f71-e43d-4566-82b3-5a2f1b302522"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate used Incorrect blurb and RC",
-    "correct_resolution": "RR",
-    "sim_id": "https://issues.amazon.com/01492539-6e5f-4e74-9cd6-ff687e626b7f"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "TP",
-    "sim_id": "https://issues.amazon.com/62c37560-739c-431b-bafa-6c0b978151b9"
-  },
-  {
-    "process": "PS",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate used Duplicate scenario instead of TP",
-    "correct_resolution": "Associate should have checked the Selling Partner ID for both cases",
-    "sim_id": "https://issues.amazon.com/912b3797-7a90-48cd-be90-6a73d74bc459"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate missed to check seller comment",
-    "correct_resolution": "Associate should have checked the seller comment and processed as RR+ tombstoned",
-    "sim_id": "https://issues.amazon.com/7e47bdca-9989-42cc-988a-11653c091597"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/516b3e36-96e1-4bbc-8103-bbacf01acdb5"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/cb2aaf90-07b4-42b4-8e3f-a2a123fc3c94"
-  },
-  {
-    "process": "Non Toys",
-    "asin": null,
-    "mp": "APAC",
-    "error_type": "Communication",
-    "error_desc": "Associate missed to check the ASIN status",
-    "correct_resolution": "Associate should have checked the ASIN was tombstoned",
-    "sim_id": "https://issues.amazon.com/8639985a-5355-439a-a798-13d2f5307616"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate missed to check for Duplicate case",
-    "correct_resolution": "Associate should have checked for duplicate case scenario",
-    "sim_id": "https://issues.amazon.com/6631204a-ea97-4cbe-9c9e-04ef8ab10aff"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/bed19f3f-f060-4646-aee8-65f1e5756729"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "TP",
-    "sim_id": "https://issues.amazon.com/9bbefbc1-0935-43cf-9d16-317a9acad1f9"
-  },
-  {
-    "process": "Non Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Reason Code Error",
-    "error_desc": "Associate used incorrect RC",
-    "correct_resolution": "Associate should have checked the RC before communicating",
-    "sim_id": "https://issues.amazon.com/10191c94-eac6-4565-8b79-abded088a1fa"
-  },
-  {
-    "process": "Non Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "TP",
-    "sim_id": "https://issues.amazon.com/9d7827e0-434d-425a-a265-03c614b89b67"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/26b53ece-1a02-40fe-a07c-86551ae71835"
-  },
-  {
-    "process": "Non Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "TP",
-    "sim_id": "https://issues.amazon.com/5e56e1f3-896a-4da1-861b-15cde9421f82"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/06e94a2c-f966-48a0-91b4-9e477c76354d"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/8754d1b2-1a0b-41b7-9564-22a3debda7b3"
-  },
-  {
-    "process": "PS",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate missed to check seller comment",
-    "correct_resolution": "Associate should have checked the seller comment and processed as RR",
-    "sim_id": "https://issues.amazon.com/a4f326f3-da96-4def-8291-d6489a10dcbb"
-  },
-  {
-    "process": "PS",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/38f140dc-d295-423e-8b16-b02f0f791f46"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "TP",
-    "sim_id": "https://issues.amazon.com/3fa3b87e-168d-42e0-a7e6-adc77b43926d"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/ec1e2609-c152-45f9-b8de-230570d6ffbd"
-  },
-  {
-    "process": "Non Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/fdd37e97-0b98-4722-ac29-dd0dcc6d73aa"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "TP",
-    "sim_id": "https://issues.amazon.com/23b005c5-587a-4d15-9f2e-e7181b9e6bdc"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate missed to check seller comment",
-    "correct_resolution": "Associate should have checked the seller comment and processed as RR+ FP",
-    "sim_id": "https://issues.amazon.com/4e05c0ff-8909-47d7-b926-c2b097a2e8da"
-  },
-  {
-    "process": "Non Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate sent incorrect communication",
-    "correct_resolution": "Associate should have sent RR blurb",
-    "sim_id": "https://issues.amazon.com/1a26332e-6eea-41b3-80b3-c05e3917ada0"
-  },
-  {
-    "process": "PS",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate sent incorrect communication",
-    "correct_resolution": "Associate should have sent RR blurb",
-    "sim_id": "https://issues.amazon.com/c2b24280-3c6e-4dd9-a9dc-0279b0bb7229"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Reason Code Error",
-    "error_desc": "Associate used incorrect RC",
-    "correct_resolution": "Associate should have checked the RC before communicating",
-    "sim_id": "https://issues.amazon.com/ccebc21e-ad2c-41de-a357-4ccd4a0b7355"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/80855586-ef6a-453f-9be7-ae38e1dbd37d"
-  },
-  {
-    "process": "Non Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": "Communication",
-    "error_desc": "Associate classified the ASIN incorrectly and also used incorrect PRC name",
-    "correct_resolution": "Associate should have checked the and classified the ASIN under the correct PRC",
-    "sim_id": "https://issues.amazon.com/6d11cdcf-971b-44dc-a42c-59d71763366c"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "FP",
-    "sim_id": "https://issues.amazon.com/dcf59749-c989-4cca-a86f-7939176141ce"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "EU",
-    "error_type": "Communication",
-    "error_desc": "Associate sent incorrect communication",
-    "correct_resolution": "Associate should have sent RR blurb",
-    "sim_id": "https://issues.amazon.com/03e6f4ee-02ec-40a8-85f7-ebae04b8db5a"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "EU",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "TP",
-    "sim_id": "https://issues.amazon.com/7e495b40-7dbf-4d05-8fad-3a065e589d12"
-  },
-  {
-    "process": "Non Toys",
-    "asin": null,
-    "mp": "APAC",
-    "error_type": "Communication",
-    "error_desc": "Associate used incorrect PRC name format",
-    "correct_resolution": "Associate should have rechecked the PRC name before sending the communication",
-    "sim_id": "https://issues.amazon.com/6dc24cbe-30d3-452b-b01a-1f8b05eabc78"
-  },
-  {
-    "process": "Toys",
-    "asin": null,
-    "mp": "NA",
-    "error_type": " Incorrect ASIN Classification",
-    "error_desc": "Associate incorrectly classified the ASIN",
-    "correct_resolution": "TP",
-    "sim_id": "https://issues.amazon.com/e5e760a5-6178-4cc2-b27d-4ea5d38dee23"
-  },
+
   {
     "process": "Toys",
     "asin": "B005ZG0FHW",
