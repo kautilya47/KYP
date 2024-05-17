@@ -1,16 +1,29 @@
 import React from "react";
 
-export default function UpdateCard({ updatearray, date, tableData, tableHeader }) {
+export default function UpdateCard({
+  updatearray,
+  date,
+  prc,
+  tableData,
+  tableHeader,
+}) {
   return (
     <div className="bg-gray-100 border border-gray-300 rounded-lg p-4 mb-4">
-      <p>Date: {date}</p>
+      <p>
+        <b>Date: {date}</b>
+      </p>
+      <p>
+        <b>PRC: {prc}</b>
+      </p>
       {tableData ? (
         <table className="table-auto">
           <thead>
             <tr>
-              {tableHeader.map((headerName, index) =>
-                <th key={index} className="px-4 py-2">{headerName}</th>
-              )}
+              {tableHeader.map((headerName, index) => (
+                <th key={index} className="px-4 py-2">
+                  {headerName}
+                </th>
+              ))}
             </tr>
           </thead>
           <tbody>

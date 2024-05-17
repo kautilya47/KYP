@@ -8,13 +8,19 @@ export default function Updates() {
   const [toDate, setToDate] = useState("");
 
   // Function to filter updates data based on keyword and date range
-  const filteredUpdates = updatesData.filter(update => {
+  const filteredUpdates = updatesData.filter((update) => {
     // Filter by keyword
-    const keywordMatch = keyword === "" || update.updates.some(updateText => updateText.toLowerCase().includes(keyword.toLowerCase()));
+    const keywordMatch =
+      keyword === "" ||
+      update.updates.some((updateText) =>
+        updateText.toLowerCase().includes(keyword.toLowerCase())
+      );
 
     // Filter by date range
-    const fromDateMatch = fromDate === "" || (new Date(update.date) >= new Date(fromDate));
-    const toDateMatch = toDate === "" || (new Date(update.date) <= new Date(toDate));
+    const fromDateMatch =
+      fromDate === "" || new Date(update.date) >= new Date(fromDate);
+    const toDateMatch =
+      toDate === "" || new Date(update.date) <= new Date(toDate);
 
     return keywordMatch && fromDateMatch && toDateMatch;
   });
@@ -38,7 +44,7 @@ export default function Updates() {
             <input
               type="text"
               value={keyword}
-              onChange={e => setKeyword(e.target.value)}
+              onChange={(e) => setKeyword(e.target.value)}
             ></input>
           </div>
           <div>
@@ -50,7 +56,7 @@ export default function Updates() {
                   <input
                     type="date"
                     value={fromDate}
-                    onChange={e => setFromDate(e.target.value)}
+                    onChange={(e) => setFromDate(e.target.value)}
                   ></input>
                 </li>
                 <li>
@@ -58,7 +64,7 @@ export default function Updates() {
                   <input
                     type="date"
                     value={toDate}
-                    onChange={e => setToDate(e.target.value)}
+                    onChange={(e) => setToDate(e.target.value)}
                   ></input>
                 </li>
               </ul>
@@ -68,7 +74,14 @@ export default function Updates() {
       </div>
       <div className="flex flex-col h-screen w-full bg-gradient-to-r from-rose-100 to-teal-100 py-80 overflow-auto">
         {filteredUpdates.map((update, index) => (
-          <UpdateCard key={index} updatearray={update.updates} date={update.date} tableData={update.updates_table_data} tableHeader={update.updates_table_header} />
+          <UpdateCard
+            key={index}
+            updatearray={update.updates}
+            date={update.date}
+            prc={update.prc}
+            tableData={update.updates_table_data}
+            tableHeader={update.updates_table_header}
+          />
         ))}
       </div>
     </div>
