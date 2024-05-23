@@ -10,6 +10,7 @@ import Links from "./pages/Links";
 import LoginPage from "./pages/LoginPage";
 import ProtectedRoute from "./components/ProtectedRoute";
 import MainPage from "./pages/MainPage";
+import Query from "./pages/Query";
 
 function App() {
   const [authenticated, setAuthenticated] = useState(false);
@@ -22,17 +23,18 @@ function App() {
             path="/login"
             element={<LoginPage setAuthenticated={setAuthenticated} />}
           />
-          <Route element={<ProtectedRoute authenticated={authenticated} />}>
-            <Route path="/" element={<MainPage />}>
-              <Route path="/" element={<Home />} />
-              <Route path="/classification" element={<Classification />} />
-              <Route path="/flowcharts" element={<Flowcharts />} />
-              <Route path="/updates" element={<Updates />} />
-              <Route path="/errors" element={<Errors />} />
-              <Route path="/links" element={<Links />} />
-              <Route path="/login" element={<LoginPage />} />
-            </Route>
+          {/* <Route element={<ProtectedRoute authenticated={authenticated} />}> */}
+          <Route path="/" element={<MainPage />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/classification" element={<Classification />} />
+            <Route path="/flowcharts" element={<Flowcharts />} />
+            <Route path="/updates" element={<Updates />} />
+            <Route path="/errors" element={<Errors />} />
+            <Route path="/links" element={<Links />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/query" element={<Query />} />
           </Route>
+          {/* </Route> */}
         </Routes>
       </div>
     </>

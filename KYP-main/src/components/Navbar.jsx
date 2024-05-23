@@ -33,6 +33,9 @@ export default function Navbar() {
           <Link to="/errors">Errors</Link>
         </li>
         <li className="hover:text-orange-500">
+          <Link to="/query">Query</Link>
+        </li>
+        <li className="hover:text-orange-500">
           <Link to="/links">Links</Link>
         </li>
         <li className="hover:text-orange-500 hidden">
